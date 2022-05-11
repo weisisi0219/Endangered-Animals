@@ -1,0 +1,53 @@
+body {
+    background-color: #d5e7fb;
+    ;
+}
+
+.page {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20vh;
+}
+
+#bottom-section {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    text-decoration: none;
+    color: black;
+
+}
+
+.bottom-image {
+    margin-left: auto;
+    margin-right: auto;
+    height: 12vh;
+}
+
+.section-2 .bottom-image {
+    display: flex;
+    flex-direction: row;
+    width: 7vw;
+}
+
+.section-2 .bottom-heading {
+    font-size: 1.5rem;
+    padding: 0px 3vw;
+    font-family: 'Poppins', sans-serif;
+}
+
+.whole text {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.description-image-wrap {
+    width: 200px;
+    height: auto;
+    overflow: hidden;
+}
+
+#first-teammate,
+#second-teammate {
+    display: flex;
+}

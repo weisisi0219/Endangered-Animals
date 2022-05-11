@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Animal Quiz</title>
+  <link rel="stylesheet" href="css/quizstyle.css">
+  <!-- <link href="css/normalize.css" rel="stylesheet" type="text/css"> -->
+  <!-- <link href="css/webflow.css" rel="stylesheet" type="text/css"> -->
+  <link href="css/animaldetail.css" rel="stylesheet" type="text/css">
+  <link href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" rel="stylesheet">
+</head>
+
+<body>
+  </div>
+
+  <nav class="navbar">
+    <div data-collapse="all" data-animation="default" data-duration="400" data-easing="ease" data-easing2="ease"
+      role="banner" class="c-nav w-nav">
+      <div class="c-nav_wrapper">
+        <div><a href="#" class="c-nav_brand w-nav-brand">
+            <img src="images/logo_1080.png" loading="lazy" width="133"
+              sizes="(max-width: 767px) 133px, (max-width: 991px) 14vw, 133px"
+              srcset="images/logo_1080.png 500w, images/logo_1080png 800w, images/logo_1080.png 1080w, images/logo.png 1685w"
+              alt="" class="c-logo-refokus"></a>
+        </div>
+        <ul class="nav-list">
+          <div class="c-nav_wrap">
+            <div class="c-nav_buttons">
+              <li class="list-item">
+                <div class="c-button_wrap">
+                  <a load-more-button="1" href="index.html" class="c-nav-btn w-inline-block">
+                    <div class="c-btn_bg">animals</div>
+                    <div class="div-block">
+                      <img
+                        src="https://uploads-ssl.webflow.com/62705aa554e3ea0bc19835f7/62705aa654e3ead28f98366b_Frame%20654157%20(1).svg"
+                        alt="" class="c-button-icon-left">
+                      <div><span class="text-span">Animals</span></div>
+                    </div>
+                  </a>
+                </div>
+              </li>
+              <li class="list-item">
+                <div class="c-button_wrap">
+                  <a load-more-button="1" href="quiz.html" class="c-nav-btn w-inline-block">
+                    <div class="c-btn_bg">quiz</div>
+                    <div class="div-block"><img
+                        src="https://uploads-ssl.webflow.com/62705aa554e3ea0bc19835f7/62705aa654e3ea6faa98366c_Icon%2024px%20(1).svg"
+                        alt="" class="c-button-icon-left">
+                      <div><span class="text-span">Quiz</span></div>
+                    </div>
+                  </a>
+                </div>
+              </li>
+              <li class="list-item">
+                <div class="c-button_wrap">
+                  <a load-more-button="1" href="about.html" class="c-nav-btn w-inline-block">
+                    <div class="c-btn_bg">about</div>
+                    <div class="div-block"><img
+                        src="https://uploads-ssl.webflow.com/62705aa554e3ea0bc19835f7/62705aa654e3ea6faa98366c_Icon%2024px%20(1).svg"
+                        alt="" class="c-button-icon-left">
+                      <div><span class="text-span">About</span></div>
+                    </div>
+                  </a>
+                </div>
+              </li>
+              <div class="menu">
+                <div class="menu-line"></div>
+                <div class="menu-line"></div>
+                <div class="menu-line"></div>
+              </div>
+            </div>
+          </div>
+        </ul>
+      </div>
+      <div class="w-nav-overlay" data-wf-ignore="" id="w-nav-overlay-0"></div>
+    </div>
+
+  </nav>
+
+  <!-- <div class="c-nav_wrapper">
+        <a href="#" class="c-nav_brand w-nav-brand"><img src="images/logo.png" loading="lazy" width="133"
+                sizes="(max-width: 767px) 133px, (max-width: 991px) 14vw, 133px"
+                srcset="images/logo_500.png 500w, images/logo_800.png 800w, images/logo_1080.png 1080w, images/logo.png 1685w"
+                alt="" class="c-logo-refokus"></a>
+        <div class="c-nav_wrap">
+            <div class="c-nav_buttons">
+                <div class="c-button_wrap">
+                    <a load-more-button="1" href="index.html" aria-current="page"
+                        class="c-nav-btn w-inline-block w--current">
+                        <div class="c-btn_bg">animals</div>
+                        <div class="div-block"><img src="images/Frame-654157-1.svg" alt="" class="c-button-icon-left">
+                            <div><span class="text-span">Animals</span></div>
+                        </div>
+                    </a>
+                </div>
+                <div class="c-button_wrap">
+                    <a load-more-button="1" href="quiz.html" class="c-nav-btn w-inline-block">
+                        <div class="c-btn_bg"> quiz</div>
+                        <div class="div-block"><img src="images/Icon-24px-1.svg" alt="" class="c-button-icon-left">
+                            <div><span class="text-span">Quiz</span></div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div> -->
+
+  <div class="start_btn"><button>Start Quiz</button></div>
+
+  <div class="info_box">
+    <div class="info_title">
+      <span>Rules of Quiz</span>
+    </div>
+    <div class="info_list">
+      <div class="info">1. You will have only <span>15 seconds</span> per each question.</div>
+      <div class="info">2. Once you select your answer, you <span>can't reselect</span>.</div>
+      <div class="info">3. You can't select any option once time goes off.</div>
+      <div class="info">4. You can't exit from the Quiz while you're playing.</div>
+      <div class="info">5. You'll get points on the basis of your correct answers.</div>
+      <div class="info"></div>
+    </div>
+    <div class="buttons">
+      <button class="quit">Exit Quiz</button>
+      <button class="restart">Continue</button>
+    </div>
+  </div>
+
+  <!-- Quiz Box -->
+  <div class="quiz_box">
+    <header>
+      <div class="title">Quiz Now</div>
+      <div class="timer">
+        <div class="time_text">Time Left</div>
+        <div class="timer_sec">15</div>
+      </div>
+    </header>
+    <section>
+      <div class="que_text">
+        <!-- <span>Which species lives in rainforest?</span> -->
+      </div>
+      <div class="option_list">
+        <!-- <div class="option">
+                    <span>1</span>
+                    <div class="icon tick"><i class="fa fa-times" aria-hidden="true"></i></div>
+                </div>
+                <div class="option">
+                    <span>2</span>
+                    <div class="icon cross"><i class="fa fa-check" aria-hidden="true"></i></div>
+                </div>
+                <div class="option">
+                    <span>3</span>
+                </div>
+                <div class="option">
+                    <span>4</span>
+                </div> -->
+      </div>
+    </section>
+
+    <!-- Quiz Box Footer -->
+    <footer>
+      <div class="total_que">
+        <!-- <span><p>2</p>of<p>5</p>Questions</span> -->
+      </div>
+      <button class="next_btn">Next Que</button>
+    </footer>
+  </div>
+
+  <!-- Result Box -->
+  <div class="result_box">
+    <div class="icon">
+      <i class="fa fa-flag" aria-hidden="true"></i>
+    </div>
+    <div class="complete_text">You've completed the Quiz!</div>
+    <div class="score_text">
+      <!-- <span>and sorry, You got only <p>2</p> out of <p>5</p></span> -->
+    </div>
+    <div class="buttons">
+      <button class="restart">Reply Quiz</button>
+      <button class="quit">Quit Quiz</button>
+    </div>
+  </div>
+  <!-- Inserted Questions and Options only -->
+  <script src="js/question.js"></script>
+  <!-- Coded all Quiz Codes -->
+  <script src="js/quizscript.js"></script>
+</body>
+
+</html>
