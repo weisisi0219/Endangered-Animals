@@ -27,7 +27,6 @@ body {
 .section-2 .bottom-image {
     display: flex;
     flex-direction: row;
-    width: 7vw;
 }
 
 .section-2 .bottom-heading {
